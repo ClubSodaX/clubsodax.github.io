@@ -354,6 +354,7 @@ p, h1, h2, h3 {
 .entry-role {
   color: #000;
   font-size: 15px;
+  line-height: 1.4;
 }
 
 .entry-subtitle,
