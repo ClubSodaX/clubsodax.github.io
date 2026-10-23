@@ -255,9 +255,6 @@ p, h1, h2, h3 {
 
 .publication-thumbnail {
   display: block;
-}
-
-.publication-thumbnail img {
   width: 100%;
   height: auto;
 }
