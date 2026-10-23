@@ -189,6 +189,11 @@ p, h1, h2, h3 {
   color: #3d505e;
   font-size: 15px;
   line-height: 1.95;
+  text-align: justify;
+}
+
+.intro a {
+  white-space: nowrap;
 }
 
 .prose {
@@ -199,6 +204,7 @@ p, h1, h2, h3 {
 
 .prose p {
   margin-bottom: 11px;
+  text-align: justify;
 }
 
 .prose p:last-child {
@@ -284,6 +290,8 @@ p, h1, h2, h3 {
   font-size: 16px;
   line-height: 1.6;
   font-weight: 600;
+  text-align: justify;
+  text-align-last: justify;
 }
 
 .publication-title-link {
@@ -350,6 +358,13 @@ p, h1, h2, h3 {
 }
 
 @media (max-width: 900px) {
+  .intro,
+  .prose p,
+  .publication-details h3 {
+    text-align: left;
+    text-align-last: auto;
+  }
+
   .shell {
     width: calc(100% - 64px);
   }
