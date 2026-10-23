@@ -1,3 +1,3 @@
-# 刘现恒 · Liu Xianheng
+# Xianheng Liu
 
-个人主页：[clubsodax.github.io](https://clubsodax.github.io/)
+[Website](https://clubsodax.github.io/)
