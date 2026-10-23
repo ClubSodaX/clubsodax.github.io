@@ -126,10 +126,10 @@ p, h1, h2, h3 {
 }
 
 .profile-headline {
-  margin: 0 0 10px;
+  margin: 0 0 4px;
   color: #000;
   font-size: 15px;
-  line-height: 1.6;
+  line-height: 1.7;
   font-weight: 500;
 }
 
@@ -169,7 +169,7 @@ p, h1, h2, h3 {
 }
 
 .intro {
-  margin: 0 0 8px;
+  margin: 0 0 4px;
   color: #000;
   font-size: 15px;
   line-height: 1.7;
