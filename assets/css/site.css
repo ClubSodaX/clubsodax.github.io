@@ -317,15 +317,13 @@ p, h1, h2, h3 {
   text-align: left;
 }
 
-.contact-links a,
-.contact-links .contact-item {
+.contact-links a {
   display: inline-flex;
   align-items: center;
   gap: 6px;
   max-width: 100%;
   font-size: 12px;
   font-weight: 550;
-  color: var(--link);
   overflow-wrap: anywhere;
 }
 
