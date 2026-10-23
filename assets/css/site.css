@@ -102,7 +102,7 @@ p, h1, h2, h3 {
   display: grid;
   grid-template-columns: var(--portrait-width) minmax(0, 1fr);
   gap: var(--media-gap);
-  align-items: center;
+  align-items: start;
   padding-bottom: 32px;
   margin-bottom: 38px;
   border-bottom: 1px solid var(--rule);
@@ -238,13 +238,6 @@ p, h1, h2, h3 {
   font-size: 13px;
   line-height: 1.55;
   font-weight: 600;
-}
-
-.research-focus {
-  margin: 12px 0 0;
-  color: var(--muted);
-  font-size: 12px;
-  line-height: 1.85;
 }
 
 .publication {
