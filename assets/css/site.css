@@ -98,8 +98,9 @@ p, h1, h2, h3 {
 }
 
 .profile {
+  --portrait-width: 150px;
   display: grid;
-  grid-template-columns: var(--media-width) minmax(0, 1fr);
+  grid-template-columns: var(--portrait-width) minmax(0, 1fr);
   gap: var(--media-gap);
   align-items: center;
   padding-bottom: 32px;
@@ -108,13 +109,13 @@ p, h1, h2, h3 {
 }
 
 .portrait-card {
-  width: var(--media-width);
+  width: var(--portrait-width);
   margin: 0;
 }
 
 .profile-photo {
-  width: var(--media-width);
-  height: var(--media-width);
+  width: var(--portrait-width);
+  height: var(--portrait-width);
   border-radius: 16px;
   object-fit: cover;
 }
