@@ -98,7 +98,6 @@ p, h1, h2, h3 {
   align-items: start;
   padding-bottom: 24px;
   margin-bottom: 28px;
-  border-bottom: 1px solid var(--rule);
 }
 
 .portrait-card {
@@ -156,8 +155,8 @@ p, h1, h2, h3 {
   column-gap: 18px;
   row-gap: 5px;
   margin-bottom: 12px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid var(--rule);
+  padding-top: 12px;
+  border-top: 1px solid var(--rule);
 }
 
 .section-heading h2 {
