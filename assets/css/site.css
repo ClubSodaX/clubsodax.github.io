@@ -129,7 +129,7 @@ p, h1, h2, h3 {
   margin: 0 0 4px;
   color: #000;
   font-size: 15px;
-  line-height: 1.7;
+  line-height: 1.5;
   font-weight: 500;
 }
 
@@ -172,7 +172,7 @@ p, h1, h2, h3 {
   margin: 0 0 4px;
   color: #000;
   font-size: 15px;
-  line-height: 1.7;
+  line-height: 1.5;
   text-align: justify;
 }
 
@@ -183,7 +183,7 @@ p, h1, h2, h3 {
 .prose {
   color: #000;
   font-size: 15px;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 .prose p {
