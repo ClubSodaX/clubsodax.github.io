@@ -27,9 +27,6 @@ body {
 a {
   touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
-}
-
-a {
   color: var(--link);
   text-decoration: none;
   text-underline-offset: 4px;
@@ -53,10 +50,6 @@ img {
 
 p, h1, h2, h3 {
   margin-top: 0;
-}
-
-[hidden] {
-  display: none !important;
 }
 
 ::selection {
@@ -291,11 +284,6 @@ p, h1, h2, h3 {
   font-weight: 600;
 }
 
-.publication-details .publication-venue {
-  color: var(--muted);
-  font-size: 14px;
-}
-
 .publication-ranking {
   color: #c62828;
   font-weight: 600;
@@ -388,10 +376,8 @@ p, h1, h2, h3 {
 
 @media (max-width: 900px) {
   .intro,
-  .prose p,
-  .publication-details h3 {
+  .prose p {
     text-align: left;
-    text-align-last: auto;
   }
 
   .shell {
@@ -416,10 +402,6 @@ p, h1, h2, h3 {
 
   .content-section {
     margin-bottom: 26px;
-  }
-
-  .section-heading h2 {
-    font-size: 21px;
   }
 
 }
@@ -478,10 +460,6 @@ p, h1, h2, h3 {
     gap: 10px 24px;
   }
 
-  .research-item h3 {
-    font-size: 13px;
-  }
-
   .publication {
     gap: 14px;
     padding-bottom: 20px;
@@ -508,22 +486,9 @@ p, h1, h2, h3 {
     font-size: 13px;
   }
 
-  .publication-details .publication-venue {
-    font-size: 13px;
-  }
-
   .entry-subtitle,
   .entry-description {
     font-size: 13px;
-  }
-
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
-    scroll-behavior: auto !important;
-    animation: none !important;
-    transition: none !important;
   }
 
 }
