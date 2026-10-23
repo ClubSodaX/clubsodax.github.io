@@ -220,7 +220,7 @@ p, h1, h2, h3 {
   color: var(--ink);
   font-size: 15px;
   line-height: 1.55;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .publication {
