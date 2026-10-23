@@ -216,7 +216,7 @@ p, h1, h2, h3 {
 .research-item h3 {
   margin: 0;
   color: var(--ink);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.55;
   font-weight: 600;
 }
