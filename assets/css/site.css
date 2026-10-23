@@ -168,6 +168,10 @@ p, h1, h2, h3 {
   margin: 0;
 }
 
+.publication-list {
+  padding-top: 8px;
+}
+
 .intro {
   margin: 0 0 4px;
   color: #000;
