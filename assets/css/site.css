@@ -40,9 +40,7 @@ a:hover {
   text-decoration: underline;
 }
 
-a:focus-visible,
-summary:focus-visible,
-button:focus-visible {
+a:focus-visible {
   outline: 2px solid var(--link);
   outline-offset: 5px;
   border-radius: 2px;
@@ -310,80 +308,15 @@ p, h1, h2, h3 {
 }
 
 .item-links {
-  display: grid;
-  grid-template-columns: max-content minmax(0, 1fr);
-  align-items: start;
-  gap: 6px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
   margin-top: 9px;
   font-size: 14px;
 }
 
 .resource-link {
   color: var(--link);
-}
-
-.publication-citation {
-  min-width: 0;
-}
-
-.publication-citation summary {
-  width: fit-content;
-  color: var(--link);
-  list-style: none;
-  cursor: pointer;
-}
-
-.publication-citation summary::-webkit-details-marker {
-  display: none;
-}
-
-.publication-citation summary:hover {
-  color: var(--link-hover);
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
-.citation-panel {
-  margin-top: 10px;
-  padding: 12px;
-  border: 1px solid var(--rule);
-  background: #f8fafb;
-}
-
-.publication-details .citation-text {
-  margin: 0;
-  color: var(--ink);
-  font-size: 13px;
-  line-height: 1.7;
-  overflow-wrap: anywhere;
-}
-
-.citation-actions {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px;
-  margin-top: 10px;
-}
-
-.copy-citation {
-  padding: 3px 10px;
-  border: 1px solid #cbd5da;
-  border-radius: 4px;
-  color: var(--ink);
-  background: #fff;
-  font: inherit;
-  font-size: 12px;
-  cursor: pointer;
-}
-
-.copy-citation:hover {
-  background: #eef3f4;
-}
-
-.copy-status {
-  color: var(--muted);
-  font-size: 12px;
 }
 
 .contact-links {
