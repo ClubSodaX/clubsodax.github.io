@@ -253,7 +253,7 @@ p, h1, h2, h3 {
 .publication.has-thumbnail {
   display: grid;
   grid-template-columns: var(--media-width) minmax(0, 1fr);
-  align-items: start;
+  align-items: center;
   gap: var(--media-gap);
 }
 
