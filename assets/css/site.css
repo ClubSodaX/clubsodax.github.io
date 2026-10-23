@@ -180,21 +180,6 @@ p, h1, h2, h3 {
   white-space: nowrap;
 }
 
-.prose {
-  color: #000;
-  font-size: 15px;
-  line-height: 1.5;
-}
-
-.prose p {
-  margin-bottom: 8px;
-  text-align: justify;
-}
-
-.prose p:last-child {
-  margin-bottom: 0;
-}
-
 .research-list {
   display: flex;
   flex-wrap: wrap;
@@ -224,7 +209,7 @@ p, h1, h2, h3 {
   align-items: baseline;
   justify-content: space-between;
   gap: 20px;
-  padding: 3px 0 23px;
+  padding: 0 0 23px;
 }
 
 .publication + .publication {
@@ -356,8 +341,7 @@ p, h1, h2, h3 {
 }
 
 @media (max-width: 900px) {
-  .intro,
-  .prose p {
+  .intro {
     text-align: left;
   }
 
@@ -417,10 +401,6 @@ p, h1, h2, h3 {
   }
 
   .intro {
-    font-size: 13px;
-  }
-
-  .prose {
     font-size: 13px;
   }
 
