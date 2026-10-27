@@ -184,6 +184,11 @@ p, h1, h2, h3 {
   white-space: nowrap;
 }
 
+.intro.phd-seeking {
+  color: #c62828;
+  font-weight: 600;
+}
+
 .research-list {
   display: flex;
   flex-wrap: wrap;
