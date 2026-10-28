@@ -264,6 +264,20 @@ p, h1, h2, h3 {
   line-height: 1.55;
 }
 
+.publication-details .publication-authors,
+.publication-details .publication-note {
+  color: #666;
+}
+
+.publication-details .publication-venue {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.publication-details .publication-note {
+  font-size: 13px;
+}
+
 .publication-authors strong {
   color: var(--ink);
   font-weight: 600;
